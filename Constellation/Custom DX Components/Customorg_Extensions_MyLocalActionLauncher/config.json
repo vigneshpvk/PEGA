@@ -1,0 +1,35 @@
+{
+  "name": "Customorg_Extensions_MyLocalActionLauncher",
+  "label": "My Local Action Launcher",
+  "description": "My Local Action Launcher",
+  "organization": "Customorg",
+  "version": "01.01.01",
+  "library": "Extensions",
+  "allowedApplications": [],
+  "componentKey": "Customorg_Extensions_MyLocalActionLauncher",
+  "type": "Field",
+  "subtype": "Text-URL",
+  "icon": "images/pz-url-active.svg",
+  "properties": [
+    {
+      "name": "buttonText",
+      "label": "Button Text",
+      "format": "TEXT",
+      "required": true
+    },
+    {
+      "name": "actionId",
+      "label": "Action ID",
+      "format": "TEXT",
+      "required": true
+    },
+    {
+      "name": "testId",
+      "label": "Test ID",
+      "format": "TEXT"
+    }
+  ],
+  "defaultConfig": {
+    "label": "@L $this.label"
+  }
+}
